@@ -4,12 +4,12 @@ on:
     branches:
       - main
     paths:
-      - "InputfieldEasyMde.module.php"
+      - "InputfieldEasyMde.info.php"
 jobs:
   tag_and_release:
     runs-on: ubuntu-latest
     env:
-      VERSION_FILE: "InputfieldEasyMde.module.php"
+      VERSION_FILE: "InputfieldEasyMde.info.php"
     permissions:
       contents: write
     steps:
