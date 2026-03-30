@@ -1,0 +1,31 @@
+{
+  "name": "trk/processwire-inputfield-easymde",
+  "description": "A lightweight standalone Markdown editor inputfield for ProcessWire",
+  "type": "pw-module",
+  "keywords": [
+    "processwire",
+    "easymde",
+    "markdown",
+    "editor",
+    "inputfield"
+  ],
+  "homepage": "https://github.com/trk/InputfieldEasyMde",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Iskender TOTOGLU",
+      "email": "iskender@totoglu.com",
+      "homepage": "https://totoglu.com/"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "config": {
+    "process-timeout": 0,
+    "allow-plugins": {
+      "hari/pw-module": true
+    }
+  },
+  "minimum-stability": "dev"
+}
